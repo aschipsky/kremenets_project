@@ -8,26 +8,28 @@ import Layout from "../components/layout"
 export const query = graphql`
   {
     allContentfulArticle {
-      edges {
-        node {
-          title
-          text {
-            text
-          }
-          banner {
-            file {
-              url
-            }
-          }
-          updatedAt
+    edges {
+      node {
+        title
+        text {
+          text
         }
+        banner {
+          file {
+            url
+          }
+          contentful_id
+        }
+        updatedAt
       }
     }
+  }
   }
 `
 
 const SecondPage = ({ data }) => <Layout>
-       {/* {JSON.stringify(data, null, 4)} */}
+      {console.log(data)}
+      {/* {JSON.stringify(data, null, 4)} */}
       {data.allContentfulArticle.edges.map(({node, index}) => (
          <>
           <h1>{node.title}</h1>
