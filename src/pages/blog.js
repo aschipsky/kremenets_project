@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-
+import BannerBlog from "../components/bannerBlog"
 // // const ComponentName = ({ data }) => <pre>{JSON.stringify(data, null, 4)}</pre>
 
 export const query = graphql`
@@ -29,8 +29,10 @@ export const query = graphql`
 }
 `
 
-const SecondPage = ({ data }) => 
+const Blog = ({ data }) => 
+      <>
        <Layout>
+       <BannerBlog/>
        {console.log(data)}
           {data.allContentfulArticle.edges
           .map(({node, index}) => (
@@ -43,8 +45,7 @@ const SecondPage = ({ data }) =>
               </div>
             </>
           ))}
-`
-         <p>Welcome to page 2</p>
-      </Layout>
+`      </Layout>
+      </>
 
-export default SecondPage
+export default Blog

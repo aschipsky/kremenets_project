@@ -595,3 +595,40 @@ html {
       font-size: 100%;
     }
   }
+
+
+  header div {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header a {
+    display: flex;
+    padding: 0 20px;
+  }
+
+  .banner-title-block {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.22);
+    min-width: 350px;
+    padding-left: 30px;
+    color: white;
+    height: 100%;
+  }
+
+  .banner-title-items {
+    position: absolute;
+    top: 150px;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 2rem;
+    background: #201E1E;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0 30px 0;
+  }
