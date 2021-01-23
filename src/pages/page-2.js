@@ -19,6 +19,7 @@ export const query = graphql`
         file {
           url
         }
+        updatedAt
       }
       contentful_id
       publishedAt
@@ -42,6 +43,7 @@ const SecondPage = ({ data }) =>
               </div>
             </>
           ))}
+`
          <p>Welcome to page 2</p>
       </Layout>
 
