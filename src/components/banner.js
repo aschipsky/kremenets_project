@@ -1,7 +1,7 @@
 import React from "react"
 import bannerImg from "../images/banner.jpg"
 
-const Banner = () => (
+const Banner = ({siteMetadata}) => (
   <div className="banner"
     style={{
         margin: `0 auto`,

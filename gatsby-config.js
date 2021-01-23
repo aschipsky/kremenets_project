@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: "kremenets",
+    description: `kremenets`,
+    author: `andry`,
+    siteUrl: `localhost:8000`
   },
   plugins: [
     {
