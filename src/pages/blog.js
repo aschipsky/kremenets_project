@@ -14,13 +14,13 @@ const Blog = () =>  {
   const data = useStaticQuery(
     graphql`
       query {
-        allContentfulBlogPost(sort: { fields: publishedData, order: DESC }) {
+        allContentfulBlogPost(sort: { fields: publishedDate, order: DESC }) {
           edges {
             node {
               title
               id
               slug
-              publishedData(formatString: "Do MMMM, YYYY")
+              publishedDate(formatString: "Do MMMM, YYYY")
               featuredImage {
                 fluid(maxWidth: 750) {
                   ...GatsbyContentfulFluid
