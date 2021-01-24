@@ -17,9 +17,10 @@ const Header = () => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-    <Link to="/">Головна</Link>
-    <Link to="#history">Історія</Link>
-    <Link to="/blog/">Блог</Link>
+  <Link className="header_link" to="/">Головна</Link>
+  <Link className="header_link" to="/">Історія</Link>
+  <Link className="header_link" to="/">Визначні місця</Link>
+  <Link className="header_link" to="/blog/">Блог</Link>
     </div>
     
   </header>
