@@ -40,13 +40,17 @@ const Blog = () =>  {
   return (
        <Layout>
        <BannerBlog/>
-       {console.log(data)}
+       <div  
+        style={{
+          margin: `0 auto`,
+          maxWidth: 980,
+          }}>
           {data.allContentfulBlogPost.edges
           .map(({node , index}) => (
             <>
             <div >
                 <h2>{node.title}</h2>
-                 <span>Posted on {node.publishedData}</span>
+                 <span>Публікація {node.publishedData}</span>
                  <Img
                   className="featured"
                   fluid={node.featuredImage.fluid}
@@ -58,6 +62,7 @@ const Blog = () =>  {
               </div>
             </>
           ))}
+          </div>
 `      </Layout>
   )
 }
