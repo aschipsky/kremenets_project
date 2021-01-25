@@ -10,7 +10,7 @@ const Banner = ({siteMetadata}) => (
   >
     <div className="banner-title-block">
       <div className="banner-title-items">
-      <h1>Кременець</h1>
+      <h1>Кременець.</h1>
       <h2>Місто з історією</h2>
       <p>Мета популяризації туристичного потенціалу краю.</p>
       </div>

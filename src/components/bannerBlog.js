@@ -8,8 +8,13 @@ const BannerBlog = () => (
         maxWidth: 1920,
     }}
   >
+    <div className="banner-title-block">
+      <div className="banner-title-items">
+      <h1>Блог про Кременеччину</h1>
+      <p>Мета популяризації туристичного потенціалу краю.</p>
+      </div>
+    </div>
     <img src={bannerImg} alt="kremenets"/>
-    <h1>Цікаві історій міста</h1>
   </div>
 )
 
