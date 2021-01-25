@@ -4,6 +4,10 @@ import bannerImg from "../images/kremenetssmoll.png"
 import musem1Img from "../images/musem1.png"
 import musem2Img from "../images/musem2.png"
 import musem3Img from "../images/musem3.png"
+import period1Img from "../images/period1.png"
+import period2Img from "../images/period2.png"
+import period3Img from "../images/period3.png"
+import period4Img from "../images/period4.png"
 
 import Layout from "../components/layout"
 
@@ -13,7 +17,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const IndexPage = () => (
   <Layout>
       <Banner/>
-      <section id="history">
+      <sections id="history">
         <br />
         <p className="tour-title">Уся історія Кременеччини</p>
         <br />
@@ -25,7 +29,7 @@ const IndexPage = () => (
         
 
   
-  </section>
+  </sections>
   <section>
     <div className="content">
           <div className="row">
@@ -36,23 +40,72 @@ const IndexPage = () => (
                   <div className="row">
                     <div className="col-md-12">
                         <div className="block_title">
+                            <a href="https://kremenets.city/read/longread/55957/scho-mozhna-podivitisya-u-kremeneckomu-muzei-ta-top-12-najcikavishih-eksponativ-iz-kozhnoi-eksponativ" className="places_card-link"></a>
                             <h2>Кременецький краєзнавчий музей</h2>
-                            <p>Рекомендуємо відвідати Вам наш мальовничий музей</p>
+                            <p>Рекомендуємо відвідати Вам наш мальовничий музей.Де розкажуть багато чого цікавого.</p>
                         </div>
                       </div>
                   </div>
                   <div className="row">
                       <div className="col-md-6">
-                          <img src={musem2Img} alt="kremenets"/>
+                          <img src={musem2Img} className="cards" alt="kremenets"/>
                       </div>
                       <div className="col-md-6">
-                          <img src={musem3Img} alt="kremenets"/>  
+                          <img src={musem3Img} className="cards" alt="kremenets"/>  
                       </div>
                   </div>
               </div>
               
           </div>
       </div>
+  </section>
+
+  <section>
+    <div className="content">
+          <div className="row">
+              <div className="col-md-4">
+                <div className="block_title-cards">
+                  <h2 className="vertical_text">Литовський період</h2>
+                  <a href="#/" className="places_card-link"></a>
+                </div>
+              </div>
+              <div className="col-md-8">
+                  <div className="row">
+                      <div className="col-md-6">
+                        <div>
+                          <h2 className="places_card-title">Польський період</h2>
+                          <img src={period2Img} className="cards" alt="kremenets"/>
+                          <a href="#/" className="places_card-link"></a>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                       <div className="block_title-card">
+                          <h2>Давньоруський період</h2>
+                          <a href="#/" className="places_card-link"></a>
+                       </div> 
+                      </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-12">
+                      <div>
+                        <h2 className="places_card-title">Російський період</h2>
+                        <img src={period3Img} className="cards_card" alt="kremenets"/>
+                        <a href="#/" className="places_card-link"></a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+  </section>
+
+  <section>
+    <div>
+      <br />
+        <p className="tour-title">Визначні місця</p>
+      <br />
+    </div>
   </section>
   </Layout>
 )
