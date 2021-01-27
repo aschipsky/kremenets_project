@@ -37,10 +37,13 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+        <div className="col-md-6">  
+          © {new Date().getFullYear()}, Creator
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-          <nav className="footer_nav">
+          <a href="https://github.com/aschipsky">GitHub</a>
+        </div>
+              <div className="col-md-6">
+                <nav className="footer_nav">
                     <ul className="footer_menu">
                         <li className="footer_menu-item">
                             <a href="https://www.facebook.com/kremenets.your.city/" target="blank" className="footer_manu-link">
@@ -59,6 +62,7 @@ const Layout = ({ children }) => {
                         </li>
                     </ul>
                 </nav>
+              </div>
         </footer>
       </div>
     </>

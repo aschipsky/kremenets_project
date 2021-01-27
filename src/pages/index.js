@@ -13,7 +13,6 @@ import period4Img from "../images/period4.png"
 import Layout from "../components/layout"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import { Link, animateScroll as scroll } from "react-scroll"
 
 const SLIDE_COUNT = 9;
 const slides = Array.from(Array(SLIDE_COUNT).keys());
@@ -25,7 +24,7 @@ const IndexPage = () => (
       <section><h5 className="tour-title">Уся історія Кременеччини</h5></section>
 
 
-      <sections id="history" className="position-relative skewed">
+      <sections className="position-relative skewed">
         <div id="rectangle">
           <img className="img" src={bannerImg} alt="kremenets"/>
           <p className="text">Кременець – одне з найдавніших міст України.  Також місто великої історії. У якому є багато історичних пам’яток і архітектур.</p>
@@ -34,7 +33,6 @@ const IndexPage = () => (
 
 
   <section>
-  <div class=""></div>
     <div className="content position-relative">
         
           <div className="row">
@@ -65,7 +63,7 @@ const IndexPage = () => (
       </div>
   </section>
 
-  <section>
+  <section  id="section1">
     <div className="content">
           <div className="row">
               <div className="col-md-4">
@@ -105,7 +103,7 @@ const IndexPage = () => (
       </div>
   </section>
 
-  <section id="визначні місця">
+  <section id="section2">
     <div>
       <br />
         <h5 className="tour-title">Визначні місця</h5>
