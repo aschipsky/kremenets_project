@@ -243,6 +243,29 @@ html {
   }
 
 
+
+  /**/
+
+  
+  .skewed {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #2c3e50;
+    z-index: 0;
+    transform: skewY(2deg);
+    transform-origin: top right;
+  }
+
+  /**/
+
+  .img{
+    margin: auto;
+    display: block;
+    padding: 50px;
+  }
+
   header div {
     display: flex;
     justify-content: flex-end;
@@ -257,7 +280,7 @@ html {
   }
 
   header a:hover {
-    color: blue;
+    color: rgb(158, 158, 190);
     text-decoration: none;
   }
 
@@ -273,11 +296,14 @@ html {
   .banner-title-items {
     position: absolute;
     top: 150px;
+    text-align: center;
+    font-size: 20px;
   }
 
   .banner img {
     width: 100%;
     height: 100vh;
+    margin-bottom: 60px;
   }
 
   footer {
@@ -297,6 +323,7 @@ html {
   }
   h2{
     font-size: 40px;
+    text-align: center;
   }
 
   footer {
@@ -310,16 +337,14 @@ html {
   .tour-title{
     text-align: center;
     font-size: xx-large;
-  }
 
-  #rectangle{
-    width: auto;
-    height: 640px;
-    background: rgb(32, 30, 30);
-    border-top: 150px solid white;
-    border-left: 500px solid transparent;
-    border-right: 500px solid transparent;
   }
+  
+
+/* skewed start */
+  
+  
+  /* skewed end */
 
   .text{
     text-align: center;
@@ -333,6 +358,7 @@ html {
     padding: 60px 50px;
     color: white;
     margin-bottom: 20px;
+    box-shadow: 0 0 10px black;
   }
 
   .cards_card {
@@ -344,25 +370,35 @@ html {
     width: 500px;
   }
 
+  .card{
+    height: 275px;
+    width: 500px;
+  }
+
+
   .block_title-cards{
-    background: rgb(38, 136, 123);
+    background: rgb(85, 9, 9);
     padding: 305px 50px;
     color: white;
     margin-bottom: 20px;
+    box-shadow: 0 0 10px black;
   }
 
   .block_title-card{
-    background: yellow;
+    background: rgb(34, 34, 30);
     padding: 90px 50px;
     color: white;
     margin-bottom: 20px;
+    box-shadow: 0 0 10px black;
   }
 
   .vertical_text{
     transform: rotate(-90deg);
     transform-origin: left top 0;
     position: absolute;
-    bottom: 150px;
+    bottom: 10px;
+    font-size: 60px;
+
   }
 
   .places_card-link{
@@ -404,6 +440,14 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   padding: 50px 0 5px 0;
+}
+
+.footer_menu {
+  list-style: none;
+}
+
+.carousel-bottom img {
+  width: 100%;
 }
 
 

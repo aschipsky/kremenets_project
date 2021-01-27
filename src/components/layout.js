@@ -43,19 +43,15 @@ const Layout = ({ children }) => {
           <nav className="footer_nav">
                     <ul className="footer_menu">
                         <li className="footer_menu-item">
-                            <a href="https://www.facebook.com/profile.php?id=100023016965203" target="blank" className="footer_manu-link">
+                            <a href="https://www.facebook.com/kremenets.your.city/" target="blank" className="footer_manu-link">
                               <img src={facebookImg} alt="facebook"/>
                             </a>
                         </li>
-                    </ul>
-                    <ul className="footer_menu">
                         <li className="footer_menu-item">
-                            <a href="https://www.instagram.com/andriishchipskii/?hl=ru" target="blank" className="footer_manu-link">
+                            <a href="https://www.instagram.com/kremenets.city/" target="blank" className="footer_manu-link">
                               <img src={instagramImg} alt="instagram"/>
                             </a>
                         </li>
-                    </ul>
-                    <ul className="footer_menu">
                         <li className="footer_menu-item">
                             <a href="https://www.youtube.com/channel/UCNwvqeBNr30fXGotrCvCkbA" target="blank" className="footer_manu-link">
                               <img src={telegramImg} alt="telegram"/>
