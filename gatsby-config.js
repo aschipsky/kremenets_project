@@ -33,6 +33,7 @@ module.exports = {
     "gatsby-transformer-remark",
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-smoothscroll",
     {
       resolve: "gatsby-source-filesystem",
       options: {

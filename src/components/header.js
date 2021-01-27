@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const Header = () => (
   <header
@@ -18,8 +19,8 @@ const Header = () => (
       }}
     >
   <Link className="header_link" to="">Головна</Link>
-  <Link className="header_link" to="/">Історія</Link>
-  <Link className="header_link" to="#визначні місця">Визначні місця</Link>
+  <button className="header_link" onClick={() => scrollTo('#section1')}>Історія</button>
+  <button className="header_link" onClick={() => scrollTo('#section2')}>Визначні місця</button>
   <Link className="header_link" to="/blog/">Блог</Link>
     </div>
     
