@@ -286,6 +286,13 @@ html {
     text-decoration: none;
   }
 
+  .header_link{
+    background: center;
+    border: none;
+    color: white;
+    margin-left: 4px;
+  }
+
   .banner-title-block {
     position: absolute;
     background: rgba(0, 0, 0, 0.22);
@@ -444,9 +451,20 @@ html {
   padding: 50px 0 5px 0;
 }
 
+.footer_title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 58px;
+}
+
 .footer_menu {
   list-style: none;
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
 }
+
 
 .carousel-bottom img {
   width: 100%;

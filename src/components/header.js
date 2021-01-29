@@ -18,7 +18,7 @@ const Header = () => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-  <Link className="header_link" to="">Головна</Link>
+  <button className="header_link" onClick={() => scrollTo('#section1')}>Головна</button>
   <button className="header_link" onClick={() => scrollTo('#section1')}>Історія</button>
   <button className="header_link" onClick={() => scrollTo('#section2')}>Визначні місця</button>
   <Link className="header_link" to="/blog/">Блог</Link>

@@ -5,6 +5,7 @@ import media4 from "./photo4.png";
 import media5 from "./photo5.png";
 import media6 from "./photo6.png";
 import media7 from "./photo7.png";
+import media8 from "./photo8.png";
 
-export const media = [media1, media2, media3, media4, media5, media6, media7 ]
+export const media = [media1, media2, media3, media4, media5, media6, media7, media8 ]
 export const mediaByIndex = index => media[index % media.length];
