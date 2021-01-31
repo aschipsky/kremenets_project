@@ -9,15 +9,11 @@ import musem3Img from "../images/musem3.png"
 import period2Img from "../images/period2.png"
 import period3Img from "../images/period3.png"
 import periodphotoImg from "../images/periodphoto.jpg"
-import periodphoto1Img from "../images/periodphoto1.jpg"
 import periodphoto2Img from "../images/periodphoto2.jpg"
 import periodphoto3Img from "../images/periodphoto3.jpg"
 
 import Layout from "../components/layout"
 import 'bootstrap/dist/css/bootstrap.min.css'
-
-
-
 
 const SLIDE_COUNT = 8;
 const slides = Array.from(Array(SLIDE_COUNT).keys());
@@ -85,15 +81,12 @@ const IndexPage = () => {
       </div>
   </section>
 
-
-
   <section  id="section1">
     <div className="content">
           <div className="row">
               <div className="col-md-4">
                 <div className="block_title-cards" onClick={handleShow}>
                   <h2 className="vertical_text">Литовський період</h2>
-                  {/* <a href="#" className="places_card-link"></a> */}
                 </div>
               </div>
               <div className="col-md-8">
@@ -102,14 +95,12 @@ const IndexPage = () => {
                         <div onClick={handleShow2}>
                           <h2 className="places_card-title">Польський період</h2>
                           <img src={period2Img} className="card" alt="kremenets"/>
-                          {/* <a href="#" className="places_card-link"></a> */}
                         </div>
                       </div>
                       <div className="col-md-6">
                        <div className="block_title-card" onClick={handleShow3}>
                           <h2>Давньоруський період</h2>
-                          {/* <a href="#/" className="places_card-link"></a> */}
-                       </div> 
+                       </div>
                       </div>
                   </div>
                   <div className="row">
@@ -117,7 +108,6 @@ const IndexPage = () => {
                       <div onClick={handleShow4}>
                         <h2 className="places_card-title">Російський період</h2>
                         <img src={period3Img} className="cards_card" alt="kremenets"/>
-                        {/* <a href="#/" className="places_card-link"></a> */}
                       </div>
                     </div>
                   </div>

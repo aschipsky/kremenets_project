@@ -11,6 +11,7 @@ module.exports = {
       options: {
         accessToken: "gskStBlEXKx1RI348JZQ7Pb8LQ7SY__3GCCKuepj9W4",
         spaceId: "asui31hbn7bg",
+        forceFullSync: true,
       },
     },
     "gatsby-plugin-sass",

@@ -10,8 +10,8 @@ const BannerBlog = () => (
   >
     <div className="banner-title-block">
       <div className="banner-title-items">
-      <h1>Блог про Кременеччину</h1>
-      <p>Мета популяризації туристичного потенціалу краю.</p>
+      <h1>Історії Кременеччини</h1>
+      <p>Мета - популяризації туристичного потенціалу краю.</p>
       </div>
     </div>
     <img src={bannerImg} alt="kremenets"/>

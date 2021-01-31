@@ -38,13 +38,6 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer>
        <div className="row">
-        <div className="col-md-6"> 
-          <div className="footer_title">
-            © {new Date().getFullYear()}, Creator
-            {` `}
-            <a href="https://github.com/aschipsky">GitHub</a>
-          </div>
-        </div> 
               <div className="col-md-6">
                 <nav className="footer_nav">
                     <ul className="footer_menu">
@@ -66,7 +59,14 @@ const Layout = ({ children }) => {
                     </ul>
                 </nav>
               </div>
-        </div>      
+               <div className="col-md-6">
+                   <div className="footer_title">
+                       © {new Date().getFullYear()}, Creator
+                       {` `}
+                       <a href="https://github.com/aschipsky"> Andriy Schipsky</a>
+                   </div>
+               </div>
+            </div>
        </footer>
       </div>
     </>
