@@ -248,7 +248,10 @@ html {
 
   /**/
 
-  
+body {
+  overflow-x: hidden;
+}
+
   .skewed {
     display: block;
     position: absolute;
@@ -273,16 +276,19 @@ html {
     justify-content: flex-end;
   }
 
-  header a {
-    display: flex;
-    padding: 0 20px;
-    color: white;
-    text-decoration: none;
-    transition: 0.5 all;
+.header_link {
+  display: flex;
+  padding: 0 20px;
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: 0.5 all;
+  text-transform: uppercase;
+  font-width: bold;
   }
 
-  header a:hover {
-    color: rgb(158, 158, 190);
+.header_link:hover{
+    color: yellow;
     text-decoration: none;
   }
 

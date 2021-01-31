@@ -6,9 +6,6 @@ import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import BannerBlog from "../components/bannerBlog"
-// // const ComponentName = ({ data }) => <pre>{JSON.stringify(data, null, 4)}</pre>
-
-
 
 const Blog = () =>  {
   const data = useStaticQuery(
@@ -66,7 +63,5 @@ const Blog = () =>  {
 `      </Layout>
   )
 }
-
-     
 
 export default Blog
