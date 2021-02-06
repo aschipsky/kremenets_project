@@ -1,6 +1,8 @@
 import React from "react"
 import bannerImg from "../images/banner.jpg"
 
+import Img from "gatsby-image"
+
 const Banner = ({siteMetadata}) => (
   <div className="banner"
     style={{
@@ -15,7 +17,7 @@ const Banner = ({siteMetadata}) => (
       <p>Мета - популяризації туристичного потенціалу краю.</p>
       </div>
     </div>
-    <img src={bannerImg} alt="kremenets"/>
+    <img src={bannerImg} alt="kremenets" alt="Кременець-місто з історією"/>
   </div>
 )
 

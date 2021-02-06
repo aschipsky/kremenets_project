@@ -14,7 +14,7 @@ const BannerBlog = () => (
       <p>Мета - популяризації туристичного потенціалу краю.</p>
       </div>
     </div>
-    <img src={bannerImg} alt="kremenets"/>
+    <img src={bannerImg} alt="kremenets" alt="Кременець-місто з історією, блог"/>
   </div>
 )
 
