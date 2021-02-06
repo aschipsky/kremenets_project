@@ -1,53 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51c3f51c-e517-4ac6-a4f7-019cc849dda7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/chunk-map.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/chunk-map.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-256x256.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-256x256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-384x384.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-384x384.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-48x48.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-48x48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-72x72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-96x96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/offline-plugin-app-shell-fallback/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/offline-plugin-app-shell-fallback/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/app-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/app-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/webpack.stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/webpack.stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bannerBlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bannerBlog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/banner-blog.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/banner-blog.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/facebook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/instagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/kremenetssmoll.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/kremenetssmoll.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/media/banner-blog.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/media/banner-blog.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/media/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/media/banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/media/photo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/media/photo1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/media/photo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/media/photo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/media/photo3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/media/photo3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/media/photo4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/media/photo4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/media/photo5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/media/photo5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/media/photo6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/media/photo6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/media/photo7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/media/photo7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/musem1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/musem1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/musem2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/musem2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/musem3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/musem3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/period2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/period2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/period3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/period3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/periodphoto.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/periodphoto.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/periodphoto1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/periodphoto1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/periodphoto3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/periodphoto3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/telegram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/telegram.png" afterDir="false" />
-    </list>
+    <list default="true" id="51c3f51c-e517-4ac6-a4f7-019cc849dda7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +36,7 @@
       <updated>1612371543015</updated>
       <workItem from="1612371546112" duration="685000" />
       <workItem from="1612457224061" duration="60000" />
-      <workItem from="1612635556444" duration="1177000" />
+      <workItem from="1612635556444" duration="1504000" />
     </task>
     <servers />
   </component>
